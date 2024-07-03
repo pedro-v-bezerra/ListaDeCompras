@@ -1,0 +1,49 @@
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  outline: none; 
+  border: 1px solid #ccc; 
+}
+
+button {
+  background: linear-gradient(to top, #11687B, #248297);
+  color: white;
+  font-weight: 600;
+  margin: 1.5rem 0rem;
+  align-items: center;
+}
+p a {
+  text-decoration: underline;
+  color: #11687B;
+  font-weight: 700;
+}
+.box p {
+  margin: 0px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEFEF;
+  padding: 2rem 2rem 2.5rem 2rem;
+  border-radius: 0.5rem;
+  width: 20rem;
+  align-self: center;
+  border: 1px solid #ccc; 
+}
+.title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.login {
+  text-align: center;
+}
